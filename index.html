@@ -10,9 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
 </head>
 <body class = "font-WorkSans">
-    <div class="container">
+    <nav class="container">
         <div class="py-3 inline-flex jutify-start">
             <div class = "px-3.5"><i class="fas fa-bars"></i></div>
             <div class = "px-3.5">
@@ -29,16 +30,43 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="relative">
-        <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full">
-            <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
-                <span class = "text-sm">New Collection 2021</span>
-                <h1 class = "text-xl font-semibold">New Chair</h1>
-                <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+    </nav>
+
+    <!--Carousel Parent Container-->
+    <div class="relative carousel-parent">
+            <!--Carousel Slide one -->
+        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-0 slide">
+            <div class="relative">
+                <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full ">
+                    <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
+                        <span class = "text-sm">New Collection 2021</span>
+                        <h1 class = "text-xl font-semibold">New Chair</h1>
+                        <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+                    </div>
+                </div>
+                <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S1.jpg?v=1614855836" alt="">
             </div>
         </div>
-        <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S1.jpg?v=1614855836" alt="">
+
+        <!--Carousel Slide two -->
+        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-full slide">
+            <div class="relative">
+                <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full ">
+                    <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
+                        <span class = "text-sm">New Collection 2021</span>
+                        <h1 class = "text-xl font-semibold">New Chair</h1>
+                        <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+                    </div>
+                </div>
+                <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S1.jpg?v=1614855836" alt="">
+            </div>
+        </div>
+
+        <ul class = "block slide-dots">
+            <li class = "relative inline-block w-5 h-5 cursor-pointeractive-dot">
+                <button class="block h-5 w-5 p-1">1</button>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
