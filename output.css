@@ -22380,6 +22380,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-WorkSans {
+  font-family: "Work Sans";
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -53959,6 +53963,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-WorkSans {
+    font-family: "Work Sans";
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -85184,6 +85192,10 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-WorkSans {
+    font-family: "Work Sans";
   }
 
   .md\:text-xs {
@@ -116413,6 +116425,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-WorkSans {
+    font-family: "Work Sans";
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -147638,6 +147654,10 @@ video {
 
   .xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-WorkSans {
+    font-family: "Work Sans";
   }
 
   .xl\:text-xs {
@@ -178867,6 +178887,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .\32xl\:font-WorkSans {
+    font-family: "Work Sans";
+  }
+
   .\32xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -188378,4 +188402,3 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-

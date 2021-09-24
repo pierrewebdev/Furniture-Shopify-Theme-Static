@@ -7,8 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class = "font-WorkSans">
     <div class="container">
         <div class="py-3 inline-flex jutify-start">
             <div class = "px-3.5"><i class="fas fa-bars"></i></div>
@@ -16,10 +19,26 @@
                 <img class = "h-auto w-24"src="https://cdn.shopify.com/s/files/1/0550/2877/7109/t/2/assets/logo.png?v=17703834142405298028" alt="">
             </div>
         </div>
-        <div class = "relative py-3.5 px-3.5 inline-block float-right">
-            <i class="fas fa-shopping-basket fa-lg"></i>
-            <span style = "right: 1.1rem" class = "absolute text-white bg-yellow-600 inline-block h-4 w-4 text-xs leading-4 rounded-full top-1 right-5 text-center">0</span>
+        <div class = "py-3.5 px-3.5 inline-block justify-between float-right">
+            <ul>
+                <li class = "inline"><i class="mx-3 fas fa-search"></i></li>
+                <li class = "inline"><i class="mx-3 far fa-user fa-lg"></i></li>
+                <li class = "inline relative">
+                    <i class="mx-3 fas fa-shopping-basket fa-lg"></i>
+                    <span class = "absolute text-white bg-yellow-600 inline-block h-4 w-4 text-xs leading-4 rounded-full -top-3 right-4 text-center">0</span>
+                </li>
+            </ul>
         </div>
+    </div>
+    <div class="relative">
+        <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full">
+            <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
+                <span class = "text-sm">New Collection 2021</span>
+                <h1 class = "text-xl font-semibold">New Chair</h1>
+                <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+            </div>
+        </div>
+        <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S1.jpg?v=1614855836" alt="">
     </div>
 </body>
 </html>

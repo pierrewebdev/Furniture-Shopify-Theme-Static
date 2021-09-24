@@ -2,13 +2,14 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        WorkSans: ["\"Work Sans\""]
+      }
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer')
-  ],
+  plugins: [],
 }
