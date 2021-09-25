@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class = "overflow-hidden" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,7 +35,7 @@
     <!--Carousel Parent Container-->
     <div class="relative container h-36 carousel-parent">
             <!--Carousel Slide one -->
-        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-0 slide">
+        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-0 slide active">
             <div class="relative">
                 <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full ">
                     <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
@@ -62,14 +62,14 @@
             </div>
         </div>
 
-        <!--Note for future Patrick, I'm stuck here-->
+        <!--Carousel Slide Buttons-->
         <div class="absolute bottom-0 my-auto container slick-dots-container">
             <ul class = "flex justify-center slide-dots">
                 <li class = "relative inline-block w-5 h-5 cursor-pointer active-dot">
-                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 prev"></button>
+                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 prev active" ></button>
                 </li>
                 <li class = "relative inline-block w-5 h-5 cursor-pointer">
-                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 next"></button>
+                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 next" ></button>
                 </li>
             </ul>
         </div>
