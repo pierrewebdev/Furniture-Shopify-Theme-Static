@@ -46,6 +46,10 @@ class Carousel{
         //need to write a check to make sure there is a slide before this one
     }
 
+    setActiveBtnColor(){
+        //code goes here
+    }
+
     setEventListerners(){
         let parent = this.carousel;
         let prevBtn = this.carousel.querySelector(".prev");
