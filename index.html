@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class = "overflow-hidden" lang="en">
+<html class = "h-full overflow-x-hidden" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <script defer src="app.js"></script>
 </head>
-<body class = "h-screen overflow-hidden font-WorkSans">
+<body class = "min-h-screen overflow-hidden font-WorkSans">
     <nav class="container">
         <div class="py-3 inline-flex jutify-start">
             <div class = "px-3.5"><i class="fas fa-bars"></i></div>
@@ -33,7 +33,7 @@
     </nav>
 
     <!--Carousel Parent Container-->
-    <div class="relative container h-36 carousel-parent">
+    <section class="relative container h-36 carousel-parent mb-5">
             <!--Carousel Slide one -->
         <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-0 slide active">
             <div class="relative">
@@ -73,6 +73,39 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
+    <!--Home Pg Icon Section-->
+    <section class="container flex flex-wrap mt-12 ml-4">
+        <div class = "w-48 text-center px-1 my-3">
+            <span class="block my-1">
+                <i class="text-yellow-500 opacity-80 fas fa-truck fa-lg"></i>
+            </span>
+            <p class = "font-semibold text-base my-1">Worldwide Shipping</p>
+            <p class = "text-gray-500 text-sm">There many variations passages Lorem but majority have..</p>
+        </div>
+        <div class = "w-48 text-center px-1 my-3">
+            <span class="block my-1">
+                <i class="text-blue-500 opacity-80 fas fa-phone-volume fa-lg"></i>
+            </span>
+            <p class = "font-semibold text-base my-1">24/7 Online Support</p>
+            <p class = "text-gray-500 text-sm">There many variations passages Lorem but majority have..</p>
+        </div>
+        <div class = "w-48 text-center px-1 my-3">
+            <span class="block my-1">
+                <i class="text-indigo-500 opacity-80 fas fa-comment-dollar fa-lg"></i>
+            </span>
+            <p class = "font-semibold text-base my-1">Money Guarantee</p>
+            <p class = "text-gray-500 text-sm">There many variations passages Lorem but majority have..</p>
+        </div>
+        <div class = "w-48 text-center px-1 my-3">
+            <span class="block my-1">
+                <i class="text-yellow-300 opacity-80 fas fa-credit-card fa-lg"></i>
+            </span>
+            <p class = "font-semibold text-base my-1">Win $100 To Voucher</p>
+            <p class = "text-gray-500 text-sm">There many variations passages Lorem but majority have..</p>
+        </div>
+    </section>
+    <hr class="border-t border-gray-300 w-11/12 mx-auto">
+
 </body>
 </html>

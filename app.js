@@ -16,6 +16,8 @@ class Carousel{
     //     }, 3000);
     // }
 
+    //I need to rework the function above to allow it to continuously switch between the two carousel slides by using setInterval and the previousSlide and nextSlide methods
+
     nextSlide(){
         let parent = this.carousel;
         let activeSlide = parent.querySelector(".slide.translate-x-0.active");
