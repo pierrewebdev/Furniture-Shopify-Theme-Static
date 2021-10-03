@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class = "h-full overflow-x-hidden" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <script defer src="app.js"></script>
+</head>
+<body class = "min-h-screen overflow-hidden font-WorkSans">
+
+    <!--Oringinal Component-->
+<!--
+    <section class="relative container h-36 carousel-parent mb-5">
+           
+        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-0 slide active">
+            <div class="relative">
+                <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full ">
+                    <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
+                        <span class = "text-sm text-gray-600">New Collection 2021</span>
+                        <h1 class = "text-xl font-semibold">New Chair</h1>
+                        <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+                    </div>
+                </div>
+                <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S1.jpg?v=1614855836" alt="">
+            </div>
+        </div>
+
+        
+        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-full slide">
+            <div class="relative">
+                <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full ">
+                    <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
+                        <span class = "text-sm text-gray-500">New Collection 2021</span>
+                        <h1 class = "text-xl font-semibold">New Sofa Chair</h1>
+                        <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+                    </div>
+                </div>
+                <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S2.jpg?v=1614855869" alt="">
+            </div>
+        </div>
+
+        
+        <div class="absolute bottom-0 my-auto container slick-dots-container">
+            <ul class = "flex justify-center slide-dots">
+                <li class = "relative inline-block w-5 h-5 cursor-pointer active-dot">
+                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 prev active" ></button>
+                </li>
+                <li class = "relative inline-block w-5 h-5 cursor-pointer">
+                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 next" ></button>
+                </li>
+            </ul>
+        </div>
+    </section>
+-->
+    <!--This is the part am I recreating-->
+    <section class="relative container h-36 carousel-parent mb-5">
+           
+        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-0 slide active">
+            <div class="relative">
+                <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full ">
+                    <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
+                        <span class = "text-sm text-gray-600">New Collection 2021</span>
+                        <h1 class = "text-xl font-semibold">New Chair</h1>
+                        <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+                    </div>
+                </div>
+                <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S1.jpg?v=1614855836" alt="">
+            </div>
+        </div>
+
+        
+        <div class="absolute transition-all ease-in-out duration-1000 transform translate-x-full slide">
+            <div class="relative">
+                <div class="absolute w-screen flex flex-col justify-between items-start inset-0 h-full ">
+                    <div class="w-2/4 h-3/4 ml-4 my-7 flex flex-col justify-evenly">
+                        <span class = "text-sm text-gray-500">New Collection 2021</span>
+                        <h1 class = "text-xl font-semibold">New Sofa Chair</h1>
+                        <a class = "w-2/4  py-1 px-1.5 bg-yellow-600 text-center text-sm text-white rounded uppercase" href="#">Shop Now</a>
+                    </div>
+                </div>
+                <img class = "max-w-full" src="https://cdn.shopify.com/s/files/1/0550/2877/7109/files/S2.jpg?v=1614855869" alt="">
+            </div>
+        </div>
+
+        
+        <div class="absolute bottom-0 my-auto container">
+            <ul class = "flex justify-center">
+                <li class = "relative inline-block w-5 h-5 cursor-pointer">
+                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 prev active" ></button>
+                </li>
+                <li class = "relative inline-block w-5 h-5 cursor-pointer">
+                    <button class="block h-3 w-3 p-1 rounded-full border border-gray-600 next" ></button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -32248,6 +32248,10 @@ video {
   content: none;
 }
 
+.orange-hover:hover{
+  color: rgba(245, 158, 11, 1);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

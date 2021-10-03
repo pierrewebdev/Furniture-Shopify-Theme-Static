@@ -63,8 +63,10 @@ class Carousel{
         let activeBtn = parent.querySelector("button.active");
         let inactiveBtn = parent.querySelector("button:not(.active)");
 
-        activeBtn.classList.remove("active", "bg-yellow-600", "border-yellow-600");
-        inactiveBtn.classList.add("active", "bg-yellow-600", "border-yellow-600");
+        if(activeBtn){
+            activeBtn.classList.remove("active", "bg-yellow-600", "border-yellow-600");
+            inactiveBtn.classList.add("active", "bg-yellow-600", "border-yellow-600");
+        }
     }
 
     setEventListerners(){
@@ -79,12 +81,18 @@ class Carousel{
             this.nextSlide()
         });
 
-        this.setActiveBtnColor();
+        if(prevBtn.classList.contains("active") || nextBtn.classList.contains("active")){
+            this.setActiveBtnColor();
+        }
 
     }
 }
 
-const carouselContainer = document.querySelector(".carousel-parent");
-const carousel = new Carousel(carouselContainer);
-carousel.setEventListerners();
+const header = document.querySelector(".carousel-parent");
+const latestProd = document.querySelector(".latest-carousel")
+const headerCarousel = new Carousel(header);
+const latestCarousel = new Carousel(latestProd);
+
+headerCarousel.setEventListerners();
+latestCarousel.setEventListerners();
 // carousel.moveBetweenSlides();

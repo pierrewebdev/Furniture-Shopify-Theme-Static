@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.orange-hover:hover{
+    color: rgba(245, 158, 11, 1);
+}
